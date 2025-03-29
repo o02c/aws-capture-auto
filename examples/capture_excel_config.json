@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://example.com",
+    "wait_time": 3,
+    "viewport_size": "1920x1080",
+    "fullpage": false,
+    "excel": {
+      "sheet_name": 0,
+      "cell": "B26",
+      "width_cm": 10.0,
+      "height_cm": 7.0
+    }
+  },
+  {
+    "url": "https://example.com",
+    "wait_time": 2,
+    "selector": "#user-list",
+    "viewport_size": "1920x1080",
+    "fullpage": true,
+    "excel": {
+      "sheet_name": 1,
+      "cell": "C5",
+      "width_cm": 15.0,
+      "height_cm": 10.0
+    }
+  }
+]

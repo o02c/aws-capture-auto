@@ -1,0 +1,16 @@
+[
+    {
+      "image_path": "data/screenshots/example1.png",
+      "sheet_name": "Sheet1",
+      "cell": "A1",
+      "width_cm": 10.0,
+      "height_cm": 8.0
+    },
+    {
+      "image_path": "data/screenshots/example2.png",
+      "sheet_name": 2,
+      "cell": "B5",
+      "width_cm": 15.0,
+      "height_cm": 12.0
+    }
+]

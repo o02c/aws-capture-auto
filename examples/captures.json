@@ -1,0 +1,15 @@
+[
+  {
+    "url": "https://example.com",
+    "wait_time": 3,
+    "viewport_size": "1920x1080",
+    "fullpage": true
+  },
+  {
+    "url": "https://example.com",
+    "wait_time": 5,
+    "selector": ".header",
+    "viewport_size": "1280x720",
+    "fullpage": false
+  }
+]

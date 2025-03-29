@@ -1,5 +1,5 @@
 [project]
-name = "aws-capture-auto"
+name = "capture-auto"
 version = "0.1.0"
 description = "AWSへのログイン・スクリーンショット取得・リソース取得を自動化するツール"
 readme = "README.md"
@@ -9,17 +9,7 @@ dependencies = [
     "pytest-playwright>=0.4.4",
     "boto3>=1.34.63",
     "python-dotenv>=1.0.1",
+    "pydantic>=2.11.1",
+    "openpyxl>=3.1.5",
+    "pillow>=11.1.0",
 ]
-
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
-[tool.setuptools]
-package-dir = {"" = "src"}
-
-[tool.setuptools.packages.find]
-where = ["src"]
-
-[project.scripts]
-aws-capture = "main:main"

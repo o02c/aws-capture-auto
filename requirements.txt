@@ -1,4 +1,0 @@
-playwright==1.44.0
-pytest-playwright==0.4.4
-boto3==1.34.63
-python-dotenv==1.0.1 
